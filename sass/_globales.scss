@@ -1,0 +1,119 @@
+//fonts
+
+ @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Roboto:wght@100;300;400;500;700&display=swap');
+
+//font-family: 'Quicksand', sans-serif;
+//font-family: 'Roboto', sans-serif;
+
+
+//Globales
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    
+    
+ }
+
+*, *::before, *::after {
+   -webkit-box-sizing: border-box;
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+ }
+
+ //variables
+
+
+   $colorPrimario: #A82C48;
+   $colorSecondry: #43112d;
+   $thirdColor: #f98169;
+   $whiteColor: #fff;
+   $textColor: #555;
+   $textGray: #999;
+   $blackColor: #000;
+   $primaryFont:font-family 'Roboto', sans-serif; ;
+   $secondaryFont:font-family 'Quicksand', sans-serif; ;
+ 
+
+body{
+   font-family:  'Roboto', sans-serif;;
+   font-size: 100%;
+   font-weight: 400;
+    
+}
+
+:active,
+:hover,
+:focus {
+   outline: 0 !important;
+   outline-offset: 0;
+}
+a,
+a:hover {
+   text-decoration: none;
+}
+a:hover {
+
+}
+ul,
+ol{
+
+}
+
+::-webkit-scrollbar{
+   width: 0.625rem;
+}
+::-webkit-scrollbar-track{
+   background: #fff;
+}
+::-webkit-scrollbar-thumb{
+   background: #A82C48;
+}
+
+/*
+================================
+   custom css design
+================================
+*/
+
+h1{
+   font-weight: 700;
+   font-size: 2.25rem;
+   text-transform: capitalize;
+   font-family: 'Quicksand', sans-serif;
+   margin-bottom: 3rem;
+   color: #43112d;
+}
+
+h2{
+   font-weight: 700;
+   font-size: 2.25rem;
+   text-transform: capitalize;
+   font-family: 'Quicksand', sans-serif; 
+   color: #43112d;
+   line-height: 3rem;
+}
+h4{
+   font-weight: 800;
+   font-size: 18px;
+   text-transform: capitalize;
+   font-family: 'Quicksand', sans-serif; 
+   color: #43112d;
+   margin-bottom: 0.5rem;
+}
+h5{
+   font-weight: 700;
+   font-size: 1rem;
+   text-transform: capitalize;
+   font-family: 'Roboto', sans-serif;
+   color: #A82C48;
+   margin-bottom: 0.5rem;
+}
+
+p{
+   font-size: 1rem;
+   color: #555;
+   font-weight: 400;
+   line-height: 1.75rem;
+   letter-spacing: 1px;
+}
