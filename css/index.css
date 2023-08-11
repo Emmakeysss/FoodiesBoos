@@ -629,4 +629,19 @@ p {
   padding-bottom: 1px;
 }
 
+.carritostyle {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  font-family: sans-serif;
+  border: solid 1px;
+  border-color: #A82C48;
+  margin: 5px;
+  align-items: center;
+}
+.carritostyle h2 {
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.8);
+}
+
 /*# sourceMappingURL=index.css.map */
